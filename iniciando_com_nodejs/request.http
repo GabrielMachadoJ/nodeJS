@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+Content-Type: application/json 
+
+{
+    "name": "lapizeira",
+    "price": 12
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/e2621e38-75b4-4286-8b0e-44dc0bcd6a6e
+
+
+###
+PUT http://localhost:4002/products/c6a3485f-adda-4166-ac84-f21249671eb4
+Content-Type: application/json 
+
+{
+    "name": "Lapis de cor",
+    "price": 1
+}
+
+###
+
+DELETE http://localhost:4002/products/4188bc7a-729d-4f0b-baf0-2fa4b4205506
